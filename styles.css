@@ -1,0 +1,161 @@
+/* GENERAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+.header {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-links a {
+    color: #e5e7eb;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* HERO SECTION */
+.hero {
+    background: #1f2937;
+    padding: 80px 150px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 45%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p {
+    margin: 10px 0 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-btn {
+    padding: 10px 25px;
+    background: #3882f6;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.hero-image {
+    background: #e5e7eb;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    font-size: 18px;
+}
+
+/* INFO SECTION */
+.info-section {
+    padding: 60px 150px;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box {
+    width: 150px;
+}
+
+.square {
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.box p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* QUOTE SECTION */
+.quote-section {
+    background: #e5e7eb;
+    padding: 80px 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+}
+
+/* CTA */
+.cta-section {
+    padding: 60px 150px;
+}
+
+.cta-box {
+    background: #3882f6;
+    color: white;
+    padding: 40px 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-btn {
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* FOOTER */
+.footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
