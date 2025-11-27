@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+h1 {
+    font-weight: 600;
+    font-size: 60px;
+    padding-left: 10px;
+    color: #3881f5;
+}
+.hero {
+    background-color: #1f2a38;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    
+    
+}
+.font {
+    font-family: Roboto, sans-serif;
+}
+.hero-main {
+    font-weight: 900;
+}
+
+.hero-secondary-colors {
+    padding: 5px 5px;
+}
+.colors {
+    color: #4582f5;
+}
+.footer {
+    background-color: #e8e3e6;
+    font-weight: 300;
+    padding: 5px 5px;
+}
